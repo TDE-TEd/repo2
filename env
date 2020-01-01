@@ -1,0 +1,45 @@
+# Framework
+# ---------
+YII_DEBUG   = true
+YII_ENV     = dev
+IS_SERVER = true
+MY_IP     = 112.133.248.28
+
+# Application
+# -----------
+LINK_ASSETS=true
+
+# Databases
+# ---------
+DB_DSN           = mysql:host=127.0.0.1;port=3306;dbname=sattdfso_test
+DB_USERNAME      = sattdfsoup
+DB_PASSWORD      = co,UMiENp=nu
+DB_TABLE_PREFIX  = satt_
+
+TEST_DB_DSN           = mysql:host=127.0.0.1;port=3306;dbname=sattdfso_test_satt-v2
+TEST_DB_USERNAME      = root
+TEST_DB_PASSWORD      = root
+
+# Urls
+# ----
+FRONTEND_URL    = http://satt-v2.yii
+BACKEND_URL     = http://admin.sattv2.sattgroup.com/
+STORAGE_URL     = http://s.sattv2.sattgroup.com/
+
+# Other
+# -----
+SMTP_HOST = mailcatcher
+SMTP_PORT = 1025
+
+FRONTEND_COOKIE_VALIDATION_KEY = OBom2MA8BhSg7PZ8TcfBjpCxI3YmhYzU
+ADMIN_COOKIE_VALIDATION_KEY = LHEn3yZ1m2p1BASG7O1TBeQ-bTK0kBvV
+
+ADMIN_EMAIL    = admin@yii2-satt-v2.yii
+ROBOT_EMAIL    = robot@yii2-satt-v2.yii
+
+GITHUB_CLIENT_ID = your-client-id
+GITHUB_CLIENT_SECRET = your-client-secret
+
+GLIDE_SIGN_KEY = Quo3bQUD8A41tptsCZLNNDBGoDO0KORv
+GLIDE_MAX_IMAGE_SIZE = 4000000
+
